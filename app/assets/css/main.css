@@ -65,3 +65,9 @@
     color: var(--color-text);
   }
 }
+
+@layer base {
+  body {
+    color: var(--color-text);
+  }
+}

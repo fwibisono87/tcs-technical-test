@@ -12,8 +12,10 @@
   "dependencies": {
     "@iconify-json/carbon": "^1.2.18",
     "@iconify/vue": "^5.0.0",
+    "@pinia/nuxt": "^0.11.3",
     "@tailwindcss/vite": "^4.1.18",
     "nuxt": "^4.2.2",
+    "pinia": "^3.0.4",
     "tailwindcss": "^4.1.18",
     "vue": "^3.5.27",
     "vue-router": "^4.6.4"
