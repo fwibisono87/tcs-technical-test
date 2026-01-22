@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Michroma', sans-serif;
+  --font-sans: 'Roboto Flex', sans-serif;
+  
+  --font-size-h1: 3.5rem;
+  --font-size-h2: 2.75rem;
+  --font-size-h3: 2.25rem;
+  --font-size-h4: 1.875rem;
+  --font-size-h5: 1.5rem;
+  --font-size-h6: 1.25rem;
+  
+  --color-text: #f3f4f6;
+}
+
+@layer utilities {
+  .h1 {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-h1);
+    line-height: 1.2;
+    font-weight: 700;
+    color: var(--color-text);
+  }
+  
+  .h2 {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-h2);
+    line-height: 1.25;
+    font-weight: 700;
+    color: var(--color-text);
+  }
+  
+  .h3 {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-h3);
+    line-height: 1.3;
+    font-weight: 600;
+    color: var(--color-text);
+  }
+  
+  .h4 {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-h4);
+    line-height: 1.35;
+    font-weight: 600;
+    color: var(--color-text);
+  }
+  
+  .h5 {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-h5);
+    line-height: 1.4;
+    font-weight: 600;
+    color: var(--color-text);
+  }
+  
+  .h6 {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-h6);
+    line-height: 1.4;
+    font-weight: 600;
+    color: var(--color-text);
+  }
+}
